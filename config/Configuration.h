@@ -38,8 +38,8 @@
  * Advanced settings can be found in Configuration_adv.h
  */
 #define CONFIGURATION_H_VERSION 02010300
-#define X_PROBE_OFFSET 24
-#define Y_PROBE_OFFSET 1
+#define X_PROBE_OFFSET -31
+#define Y_PROBE_OFFSET -31
 #define Z_PROBE_OFFSET -2.80
 
 //===========================================================================
