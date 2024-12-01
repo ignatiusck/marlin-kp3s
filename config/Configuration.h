@@ -38,9 +38,6 @@
  * Advanced settings can be found in Configuration_adv.h
  */
 #define CONFIGURATION_H_VERSION 02010300
-#define X_PROBE_OFFSET -31
-#define Y_PROBE_OFFSET -31
-#define Z_PROBE_OFFSET -2.80
 
 //===========================================================================
 //============================= Getting Started =============================
@@ -1639,6 +1636,11 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
+
+#define X_PROBE_OFFSET 25
+#define Y_PROBE_OFFSET -31
+#define Z_PROBE_OFFSET -2.80
+
 #define NOZZLE_TO_PROBE_OFFSET { X_PROBE_OFFSET, Y_PROBE_OFFSET, Z_PROBE_OFFSET }
 
 // Enable and set to use a specific tool for probing. Disable to allow any tool.
@@ -1883,8 +1885,8 @@
 // @section geometry
 
 // The size of the printable area
-#define X_BED_SIZE 200
-#define Y_BED_SIZE 200
+#define X_BED_SIZE 180
+#define Y_BED_SIZE 180
 
 // Travel limits (linear=mm, rotational=°) after homing, corresponding to endstop positions.
 #define X_MIN_POS -10
